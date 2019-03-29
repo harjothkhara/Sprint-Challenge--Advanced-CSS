@@ -13,3 +13,14 @@
     font-size: 1.5rem;
     text-decoration: none;
 }
+
+.button (@backgroundColor; @textColor; @radius) {
+    border: 1px solid @backgroundColor;
+    width: 30%;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 5px 0;
+    border-radius: @radius;
+    color: @textColor;
+    background-color: @backgroundColor;
+}
