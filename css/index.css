@@ -243,6 +243,11 @@ footer {
   border-radius: 5px;
   color: white;
   background-color: black;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: yellow;
+  color: #81848E;
 }
 .home .walk .walk-img {
   width: 46%;
