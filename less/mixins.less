@@ -1,1 +1,51 @@
 // Mixins Here
+
+.naved() {
+
+    padding-top: 20px;
+    width: 40%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navedMobile(){
+    width: 85%;
+    Justify-content: space-around;
+}
+
+.naved-text() {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.button (@backgroundColor; @textColor; @radius) {
+    border: 1px solid @backgroundColor;
+    width: 30%;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 5px 0;
+    border-radius: @radius;
+    color: @textColor;
+    background-color: @backgroundColor;
+    cursor: pointer;
+
+    &:hover{
+        background-color:yellow;
+        color: @waterloo;
+    }
+}
+
+.btnMobile {
+    width: 100%;
+    padding: 4%;
+}
+
+.remove-pic() {
+    .sky {
+        display: none;
+    }
+    .launch {
+        display: none;
+    }
+}

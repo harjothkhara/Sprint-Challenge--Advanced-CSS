@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+   An adaptive website caters for certain devices (not all) with specific break points (hard coded pixels) for layout. A responsive website adds to this by using responsive units (such as % or rems) to allow for a better viewing experience accross more devices. Because of this a responsive website takes longer to build.
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    In this context, "mobile first" implies that you will build your mobile layout first and build out (min-width). Conversely, "desktop first" implies you will build your desktop layout first and work down (max-width) to a smaller screen size (tablet, mobile).
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    62.5% makes the font-size for the entire page become 10px (62.5% * 16px default font-size), or 1rem.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    Preprocessing is a syntax (e.g LESS) that we code in that simplifies and organizes your CSS. It then compiles (e.g NODE) our written syntax as regular CSS. Using a preprocessor allows us to to think in components instead of deep in our CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    imports: having my css be organized and controlled. building specifically for one smaller file allows you to write cleaner code and not go crazy looking for a syntax error elsewhere. it's amazing how the smaller files get compiled into one css file at the end.
+
+   mixins, variables and nesting (4 deep rule) are probably the areas where i would like to review some more, since these are all new ideas for me within CSS. I wass stuck for 30min on yesterdays projects because of improper mixin syntax organization in my code. Imports saved me!
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -135,3 +148,7 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Create a fixed navigation and add some opacity to the background
 
 * [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+
+
+
+    Initial commit - test!
